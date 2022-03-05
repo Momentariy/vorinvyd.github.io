@@ -54,7 +54,7 @@
   <header>
     <div class="hero" id="hero">
       <a href="#!"><h1 style="padding-top: 3%;"><img src="img/logo.png" width="50%"></h1></a>
-      <h3 class="server-status-container">Онлайн на сервере <span class="server-status info">0</span>!</h3>
+      <h3 class="server-status-container">Онлайн на сервере<span class="server-status info">0</span>!</h3>
 	  <div id="pinned">
         <div class="pinned-card shrink shrink-pinned">
           <strong>Поддержи проект!</strong>
