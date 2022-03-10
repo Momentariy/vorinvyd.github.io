@@ -10,9 +10,9 @@ var ip_copied = "IP copied!";
 
 var firefly_count = 20;
 
-staff("CuSO4k", "CuSO4k.png", "Глава");
-staff("MomentariyModder", "MomentariyModder.png", "Тех. Админ");
-staff("Kritter", "Kritter.png", "Гл. Админ");
+staff("CuSO4k", "CuSO4k.png", "Глава проекта");
+staff("MomentariyModder", "MomentariyModder.png", "Тех. Админ проекта");
+staff("Kritter", "Kritter.png", "Гл. Админ проекта");
 
 vote("Planet-Minecraft", "https://i.postimg.cc/9fmyrRkJ/Transparent-Planet-Minecraft-Logo.png", "https://planetminecraft.com");
 vote("Minecraft Servers Org", "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/2d/Plains_Grass_Block.png", "https://minecraftservers.org/");
