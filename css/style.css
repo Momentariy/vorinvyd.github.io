@@ -249,6 +249,20 @@ hr {
 	color: var(--button-hover-text-color);
 }
 
+.btn2 {
+    padding: 10px 25px;
+    background: var(--button2-color);
+    color: var(--button2-text-color);
+    display: inline-block;
+    border-radius: 1em;
+    transition: .3s;
+	text-decoration: none;
+}
+.btn2:hover {
+	background: var(--button2-hover-color);
+	color: var(--button2-hover-text-color);
+}
+
 footer {
     color: #fff;
     display: flex;
@@ -304,6 +318,24 @@ footer {
 #header .nav_links li a:hover {
 	color: var(--button-hover-color)
 }
+#header .nav2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+#header .nav2_links {
+	list-style: none;
+	padding: 0;
+}
+#header .nav2_links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+#header .nav2_links li a {
+	transition: 0.3s;
+}
+#header .nav2_links li a:hover {
+	color: var(--button2-hover-color)
+}
 #header button {
 	padding: 9px 25px;
 	background-color: rgb(69 75 82);
@@ -325,6 +357,12 @@ footer {
     padding: 0.5em;
   }
   #header .nav_links li a {
+	padding: 0;
+  }
+  #header .nav2_links li {
+    padding: 0.5em;
+  }
+  #header .nav2_links li a {
 	padding: 0;
   }
 }
