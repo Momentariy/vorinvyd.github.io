@@ -13,6 +13,9 @@ var firefly_count = 20;
 staff("CuSO4k", "CuSO4k.png", "Глава проекта");
 staff("MomentariyModder", "MomentariyModder.png", "Тех. Админ проекта");
 staff("Kritter", "Kritter.png", "Гл. Админ проекта");
+staff("Têå", "Tea.png", "Мл. Админ проекта");
+staff("ZAKHARIUS", "ZAKHARIUS.png", "Модератор ДС");
+staff("LukXXXX", "LukXXXX.png", "Модератор ДС");
 
 vote("Planet-Minecraft", "https://i.postimg.cc/9fmyrRkJ/Transparent-Planet-Minecraft-Logo.png", "https://planetminecraft.com");
 vote("Minecraft Servers Org", "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/2d/Plains_Grass_Block.png", "https://minecraftservers.org/");

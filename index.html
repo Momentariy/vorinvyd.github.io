@@ -36,8 +36,6 @@
   <script src="js/fireflies.js"></script>
   <script src="js/main.js"></script>
   <script src="config.js"></script>
-  
-  <script>tosAgreed = true</script>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Raleway|Quicksand">
@@ -53,11 +51,12 @@
 
   <header>
     <div class="hero" id="hero">
-      <a href="#!"><h1 style="padding-top: 3%;"><img src="img/logo.png" width="50%"></h1></a>
+      <a href="#!"><h1 style="padding-top: 3%;"><img src="img/logo.png" width="65%"></h1></a>
 	  <div id="pinned">
         <div class="pinned-card shrink shrink-pinned">
           <strong>Поддержи проект!</strong>
-          <a href="http://www.donationalerts.ru/r/imperia_vorinvyd" class="btn">КЛИКНИ ПО МНЕ</a>
+          <a href="http://www.donationalerts.ru/r/imperia_vorinvyd" class="btn">DonationAlerts</a>
+		  <a href="https://boosty.to/vorinvyd" class="btn">Boosty</a>
         </div>
       </div>
 	</div>
@@ -79,16 +78,16 @@
   <section class="light" id="about">
     <p class="enlarge">
       <strong>О проект</strong>
-      ИМПЕРИЯ ВОРИНВУД - Проект приватных серверов по Minecraft.
+      {{server_name}} - Проект приватных серверов по Minecraft.
     </p>
     <p class="enlarge">
       <strong>История</strong>
-      Воринвуд это продолжение другого РП сервера который был удален хостингам. 
+      {{server_name}} это продолжение другого РП сервера который был удален хостингам. 
       Почему был удалён сервер с хостинга никому кроме хостинга не известно, но на этом основании через неделю Ярослав(CuSO4k) предложил Степану(MomentariyModder) создать продолжение сервера, и он это сделав пригласив ещё Kritter который занимался сценарием. 
     </p>
 	<p class="enlarge">
 	<strong>Принцип работы</strong>
-	Сервер доступен для: Лицензионных и Пиратских аккаунтав. Для прохода на сервер необхидомо написать заявку в ДС.
+	Сервера доступен для: Лицензионных и Пиратских аккаунтав. Для прохода на сервер необхидомо написать заявку в ДС.
 	</p>
   </section>
 
@@ -97,7 +96,7 @@
     <div class="feature right">
       <img src="img/java.jpg" width="700px" class="enlarge">
       <p class="enlarge">
-        <strong>ИМПЕРИЯ ВОРИНВУД JAVA</strong>
+        <strong>{{server_name}} JAVA</strong>
         РП-Сервер для Minecraft: Java Edition. 
 		<strong></strong>
 		<b>Платформы</b>: Windows, macOS и Linux.
@@ -113,7 +112,7 @@
     <div class="feature right">
       <img src="img/bedrock.jpg" width="700px" class="enlarge">
       <p class="enlarge">
-        <strong>ИМПЕРИЯ ВОРИНВУД BEDROCK</strong>
+        <strong>{{server_name}} BEDROCK</strong>
         РП-Сервер для Minecraft: Bedrock Edition. 
 		<strong></strong>
 		<b>Платформы</b>: Windows 10/11, Android, iOS/ipadOS, XBOX, PS4/PS5 и Nintendo Switch.
@@ -136,17 +135,18 @@
     <h1>Новости</h1>
     <div id="news">
 	  <div class="news-card">
+        <strong>Набор в модеры - окончен! (19.03.2022 01:06)</strong>
+        <p>Сегодня был окончен набор в модеры.</p>
+		<p>По решению администрации были приняты, следующие игроки: Têå(мл. админ), LukXXXX и ZAKHARIUS(Модераторы)</p>
+		<p> </p>
+		<p><b>#проект</b></p>
+      </div>
+	  <p> </p>
+	  <div class="news-card">
 	  <strong>ИМПЕРИЯ ВОРИНВУД BEDROCK! (14.03.2022 01:09)</strong>
         <p>Недавно администрация проекта анонсировали сервер для Minecraft: Bedrock Edition. Открытие уже скоро!</p>
 		<p> </p>
 		<p><b>#bedrock</b></p>
-      </div>
-	  <p> </p>
-	  <div class="news-card">
-        <strong>Новый сайт! (06.03.2022 01:06)</strong>
-        <p>У нас новый сайт.</p>
-		<p> </p>
-		<p><b>#проект</b></p>
       </div>
 	  <p> </p>
       <div class="news-card">
@@ -173,10 +173,9 @@
   
   <footer>
     <a>&copy; {{server_name}} 2021-2022. Все права защищены.</br>Проект {{server_name}} не относится к Mojang Studios.</a>
+	<a><img alt="12+" title="12+" src="img/12+.png" style="height:4em"></a>
 	<a><b>EMAIL:</b> imperiavorinvud@gmail.com</a>
   </footer>
   </script>
   
-  <!-- License -->
-  <script src="https://remote.olliejw.me/license.js"></script>
 </body>
