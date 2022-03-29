@@ -137,6 +137,27 @@ hr {
   }
 }
 
+.staff-card2 {
+	display: inline-block;
+	margin: 1em;
+    position: relative;
+    padding: 1em;
+    background: #34393e;
+    text-align: center;
+	width: 18em;
+	border-radius: 1em;
+}
+.staff-card2 h3 {
+	line-height: 0;
+	font-family: 'Poppins',sans-serif;
+	color: #fff;
+}
+@media (max-width: 1200px) {
+  .staff-card2 {
+      width: 13em;
+  }
+}
+
 .grid {
 	width: auto;
 	display: grid;

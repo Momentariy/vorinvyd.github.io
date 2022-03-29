@@ -137,6 +137,27 @@ hr {
   }
 }
 
+.staff-card2 {
+	display: inline-block;
+	margin: 1em;
+    position: relative;
+    padding: 1em;
+    background: #34393e;
+    text-align: center;
+	width: 18em;
+	border-radius: 1em;
+}
+.staff-card2 h3 {
+	line-height: 0;
+	font-family: 'Poppins',sans-serif;
+	color: #fff;
+}
+@media (max-width: 1200px) {
+  .staff-card2 {
+      width: 13em;
+  }
+}
+
 .grid {
 	width: auto;
 	display: grid;
@@ -264,12 +285,12 @@ hr {
 }
 
 footer {
-    color: #fff;
+    color: #2e2e2e;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background: #23272b;
+    background: #fff;
     padding: 30px 50px;
 }
 @media (min-width: 1200px) {
@@ -321,6 +342,7 @@ footer {
 #header .nav2 {
     margin-left: auto;
     margin-right: auto;
+}
 #header .nav2_links {
 	list-style: none;
 	padding: 0;
@@ -356,6 +378,12 @@ footer {
     padding: 0.5em;
   }
   #header .nav_links li a {
+	padding: 0;
+  }
+  #header .nav2_links li {
+    padding: 0.5em;
+  }
+  #header .nav2_links li a {
 	padding: 0;
   }
 }
