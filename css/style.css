@@ -3,6 +3,11 @@
  * License - https://olliejw.me/tos
  */
 
+@font-face {
+  font-family: Poppins;
+  src: url(Rubik.ttf);
+}
+
 html,
 body {
 	/* General fixes */
@@ -12,14 +17,14 @@ body {
 	max-height: 100%;
 	padding: 0px;
 	margin: 0px;
-	font-family: 'Poppins', sans-serif;
+	font-family: Poppins, sans-serif;
 }
 
 /* =========== Header =========== */
 .hero {
-	height: 100vh;
+	height: 100%;
     width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/background.png) no-repeat center center;
+    background: url(../img/background.png);
     background-size: cover;
     text-align: center;
     display: flex;
@@ -29,7 +34,7 @@ body {
     color: #fff;
 }
 h1 {
-	font-family: 'Poppins', sans-serif;
+	font-family: Poppins, sans-serif;
 	font-size: 4em;
 	margin: 0;
 	text-transform: uppercase;
@@ -52,7 +57,7 @@ h3 {
 	color: var(--info-color);
 	font-weight: 700;
 	/* Numbers look stupid in Raleway so we will make it Poppins */
-	font-family: 'Poppins', sans-serif;
+	font-family: Poppins, sans-serif;
 }
 .ip {
 	text-decoration: underline;
@@ -128,7 +133,7 @@ hr {
 }
 .staff-card h3 {
 	line-height: 0;
-	font-family: 'Poppins',sans-serif;
+	font-family: Poppins,sans-serif;
 	color: #525252;
 }
 @media (max-width: 1200px) {
@@ -149,7 +154,7 @@ hr {
 }
 .staff-card2 h3 {
 	line-height: 0;
-	font-family: 'Poppins',sans-serif;
+	font-family: Poppins,sans-serif;
 	color: #fff;
 }
 @media (max-width: 1200px) {
@@ -183,7 +188,7 @@ hr {
 }
 .vote-card h3 {
 	line-height: 0;
-	font-family: 'Poppins',sans-serif;
+	font-family: Poppins,sans-serif;
 	color: #ffffff;
 }
 .vote-card a {
@@ -211,7 +216,7 @@ hr {
 }
 .news-card h3 {
 	line-height: 0;
-	font-family: 'Poppins',sans-serif;
+	font-family: Poppins,sans-serif;
 }
 
 #pinned {
@@ -236,7 +241,7 @@ hr {
 }
 .pinned-card h3 {
 	line-height: 0;
-	font-family: 'Poppins',sans-serif;
+	font-family: Poppins,sans-serif;
 }
 .pinned-card > .btn {
 	background: var(--pinned-button-color);
@@ -409,8 +414,8 @@ footer {
     box-shadow: inset -7px -6px 20px 4px #1a1a1a;
 }
 img {
-	transition: all .3s;
-	border-radius: 1em;
+	transition: all;
+	border-radius: 1;
 }
 img:hover {
 	filter: drop-shadow(0.5rem 0.5rem 0.25rem rgba(0,0,0,0.2));

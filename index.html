@@ -26,12 +26,10 @@
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
   <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
-  <script src="js/fireflies.js"></script>
   <script src="js/main.js"></script>
   <script src="config.js"></script>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Raleway|Quicksand">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="config.css">
 </head>
@@ -44,14 +42,15 @@
 
   <header>
     <div class="hero" id="hero">
-      <a href="#!"><h1 style="padding-top: 3%;"><img src="img/logo.png" width="65%"></h1></a>
+      <a href="#!"><h1 style="padding-top: 3%;"><img src="img/logo.png" width="50%"></h1></a>
 	  <div id="pinned">
         <div class="pinned-card shrink shrink-pinned">
           <strong>Поддержи проект!</strong>
           <a href="http://www.donationalerts.ru/r/imperia_vorinvyd" class="btn">DonationAlerts</a>
 		  <a href="https://boosty.to/vorinvyd" class="btn">Boosty</a>
         </div>
-      </div>
+    </div>
+	<p></p>
 	</div>
   </header>
 
@@ -59,16 +58,19 @@
     <nav class="nav">
       <ul class="nav_links">
         <li><a href="index.html">Главная</a></li>
-	    <li><a href="#about">О проекте</a></li>
+	    <li><a href="#about">Информация</a></li>
         <li><a href="#servers">Сервера</a></li>
 	    <li><a href="#staff">Администрация</a></li>
 		<li><a href="#news">Новости</a></li>
 	    <li><a href="#social">Соц. Сети</a></li>
+		<p> </p>
+		<li><a href="faq.html">FAQ</a></li>
       </ul>
     </nav>
   </section>
 
   <section class="light" id="about">
+    <h1><img src="img/emoji/scroll.png" width="3%"> Информация</h1>
     <p class="enlarge">
       <strong>О проект</strong>
       {{server_name}} - Проект приватных серверов по Minecraft.
@@ -81,7 +83,7 @@
   </section>
 
   <section class="dark" id="servers">
-    <h1>Сервера</h1>
+    <h1><img src="img/emoji/laptop.png" width="3%"> Сервера</h1>
 	<div class="staff-card2">
       <img src="img/rp-logo.png" width="75%">
       <h4>Основной сервер проекта.</h4>
@@ -91,7 +93,7 @@
 		<strong></strong>
 		<strong></strong>
 		<a href="rp.html" class="btn2">Подробнее</a>
-		<a href="https://monitoringminecraft.ru/server/873499" class="btn2">Мониторинг</a>
+		<a href="rp-map.html" class="btn2">Карта</a>
     </div>
 	<div class="staff-card2">
       <img src="img/mods-logo.png" width="75%">
@@ -116,7 +118,7 @@
    </section>
    
   <section class="light" id="staff">
-    <h1>Администрация проекта</h1>
+    <h1><img src="img/emoji/man-office-worker.png" width="3%"> Администрация проекта</h1>
 	<div>
 	<div class="staff-card shrink">
       <img src="players/CuSO4k.png" width="50%">
@@ -138,7 +140,7 @@
   </section>
 
   <section class="dark">
-    <h1>Новости</h1>
+    <h1><img src="img/emoji/newspaper.png" width="3%"> Новости</h1>
     <div id="news">
             <div class="news-card">
         <strong>III СЕЗОН! (05.04.2022 00:00)</strong>
@@ -166,7 +168,7 @@
   </section>
 
   <section class="light">
-    <h1>Социальные сети</h1>
+    <h1><img src="img/emoji/link.png" width="3%"> Социальные сети</h1>
     <div class="buttons" id="social">
       <a href="https://discord.com/invite/x5uHZ5CEtE" class="btn">Discord</a>
       <a href="https://vk.com/vorinvyd" class="btn">ВК</a>
@@ -177,7 +179,7 @@
   
   
   <footer>
-    <a>&copy; {{server_name}} 2021-2022. Все права защищены.</br>Проект {{server_name}} не относится к Mojang Studios.</a>
+    <a><b>&copy;</b> <b>{{server_name}}</b> 2021-2022. Все права защищены.</br>Проект <b>{{server_name}}</b> не относится к <b>Mojang Studios</b>.<br><b>Apple emojis</b> provided by <b>Apple</b>. <b>Apple®</b> is a registered trademark of <b>Apple Inc</b>.</a>
 	<a><img alt="12+" title="12+" src="img/12+.png" style="height:4em"></a>
 	<a><b>EMAIL:</b> imperiavorinvud@gmail.com</a>
   </footer>
