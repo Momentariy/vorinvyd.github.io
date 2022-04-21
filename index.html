@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <head>
   <link rel="icon" href="./img/favicon.png">
-  <title>ИМПЕРИЯ ВОРИНВУД</title>
+  <title>ГЛАВНАЯ | ИМПЕРИЯ ВОРИНВУД</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta name="title" content="ИМПЕРИЯ ВОРИНВУД">
   <meta name="description" content="Приватный дружеский ванильный сервер по MineCraft.">
@@ -22,7 +22,14 @@
 	add ?v and a random number to config.css/js
 	Example: <link rel="stylesheet" href="config.css?v=100">
   -->
+  <!-- Put this script tag to the <head> of your page -->
+  <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
 
+  <div id="vk_community_messages"></div>
+  <script type="text/javascript">
+   VK.Widgets.CommunityMessages("vk_community_messages", 197044256, {tooltipButtonText: "Есть вопрос?", expanded: 1});
+  </script>
+  
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
   <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
@@ -55,18 +62,15 @@
   </header>
 
   <section id="header" class="dark">
-    <nav class="nav">
-      <ul class="nav_links">
-        <li><a href="index.html">Главная</a></li>
-	    <li><a href="#about">Информация</a></li>
-        <li><a href="#servers">Сервера</a></li>
-	    <li><a href="#staff">Администрация</a></li>
-		<li><a href="#news">Новости</a></li>
-	    <li><a href="#social">Соц. Сети</a></li>
-		<p> </p>
-		<li><a href="faq.html">FAQ</a></li>
-      </ul>
-    </nav>
+    <div class="buttons" id="social">
+      <a href="index.html" class="btn3">Главная</a>
+      <a href="#about" class="btn3">Информация</a>
+	  <a href="#servers" class="btn3">Сервера</a>
+	  <a href="#staff" class="btn3">Администрация</a>
+	  <a href="#news" class="btn3">Новости</a>
+	  <a href="/faq" class="btn3">FAQ</a>
+	  <a href="#social" class="btn3">Соц. Сети</a>
+    </div>
   </section>
 
   <section class="light" id="about">
@@ -93,27 +97,6 @@
 		<strong></strong>
 		<strong></strong>
 		<a href="servers/rp.html" class="btn2">Подробнее</a>
-		<a href="servers/rp-map.html" class="btn2">Карта</a>
-    </div>
-	<div class="staff-card2">
-      <img src="img/mods-logo.png" width="75%">
-      <h4>Сервер с модами.</h4>
-		<b>Версии</b>: FORGE 1.16.5
-		<strong></strong>
-		<b>Статус</b>: I СЕЗОН
-		<strong></strong>
-		<strong></strong>
-		<a href="servers/mods.html" class="btn2">Подробнее</a>
-    </div>
-	<div class="staff-card2">
-      <img src="img/anarchy-logo.png" width="75%">
-      <h4>Анархо-сервер.</h4>
-		<b>Версии</b>: 1.16.5-1.18.2
-		<strong></strong>
-		<b>Статус</b>: В ПЛАНЕ.
-		<strong></strong>
-		<strong></strong>
-		<a href="servers/anarchy.html" class="btn2">Подробнее</a>
     </div>
    </section>
    
@@ -136,7 +119,7 @@
       <h4>Гл. Админ проекта</h4>
     </div>
 	<p> </p>
-       <p align="center"><a href="personal.html" class="btn">Остальные</a></p>
+       <p align="center"><a href="/personal" class="btn">Остальные</a></p>
   </section>
 
   <section class="dark">
@@ -171,9 +154,11 @@
     <h1><img src="img/emoji/link.png" width="3%"> Социальные сети</h1>
     <div class="buttons" id="social">
       <a href="https://discord.com/invite/x5uHZ5CEtE" class="btn">Discord</a>
-      <a href="https://vk.com/vorinvyd" class="btn">ВК</a>
+      <a href="https://vk.com/vorinvyd" class="btn">Группа ВК</a>
 	  <a href="https://www.twitch.tv/vorinvyd" class="btn">Twitch</a>
+   	  <a href="https://www.youtube.com/channel/UC6z5W2z1iRgqg7RpD9vDmhA" class="btn">YouTube</a>
 	  <a href="https://www.tiktok.com/@empire_of_vorinvud" class="btn">TikTok</a>
+	  <a href="https://t.me/vorinvyd" class="btn">Telegram</a>
     </div>
   </section>
   
